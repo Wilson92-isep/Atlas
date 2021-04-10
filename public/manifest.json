@@ -1,0 +1,15 @@
+{
+  "short_name": "Atlas",
+  "name": "Atlas",
+  "icons": [
+    {
+      "src": "Logo_nuit.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2E8AA1",
+  "background_color": "#113F57"
+}

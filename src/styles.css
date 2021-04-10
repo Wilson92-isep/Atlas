@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 15vh;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #113F57;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.corp {
+  background-color: #2E8AA1;
+  background-image : url("./logo/neon_1000.png");
+  background-size: 150vw;
+  background-position:center center;
+  height: 760vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.corp1 {
+  height: 115vh;
+  display: flex;
+  flex-direction: row
+}
+
+.corp2 {
+  height: 85vh;
+  display: flex;
+  flex-direction: row
+}
+
+.corp3 {
+  height: 55vh;
+  display: flex;
+  flex-direction: row
+}
+
+.corp4 {
+  height: 140vh;
+  display: flex;
+  flex-direction: row
+}
+
+.corp5 {
+  height: 50vh;
+  align-items: center;
+}
+
+.corp6 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width : 30vw;
+  height: 30vh;
+}
+
+.corp61 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width : 30vw;
+  height: 30vh;
+  margin-left: 5vw;
+}
+
+.div1 {
+  height: 110vh;
+  width : 50vw;
+  align-items: center;
+  display: flex;
+  flex-direction: column
+}
+
+.tof {
+  height: 20vh;
+  margin-top: 7vh;
+}
+
+.tof_sponsor {
+  width : 40vw;
+  margin-top: 12vh;
+}
+
+.tombola {
+  background-color: #FFD200;
+  width : 80vw;
+  height: 30vh;
+  margin-top: 10vh;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: row
+}
+
+.lot {
+  height: 25vh;
+  margin-left: 3vw;
+}
+
+.nom_lot {
+  margin-top: 5vh;
+  font-family: acier-bat-gris, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.bouton {
+  margin-top: 6vh;
+  width : 20vw;
+  height: 7vh;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background-color: #113F57;
+  justify-content: center;
+}
+
+.bouton1 {
+  margin-top: 2vh;
+  width : 20vw;
+  height: 7vh;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background-color: #113F57;
+  justify-content: center;
+}
+
+.font {
+  font-family: acier-bat-gris, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
