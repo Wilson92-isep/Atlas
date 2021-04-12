@@ -132,7 +132,7 @@ export const Home = () => {
           <img src={photo_leopold} className="tof" alt="photo_membre" />
          </div>         
         </div>
-        <h1 className="font">La Mascotte</h1>
+        <h1 className="font1">La Mascotte</h1>
         <div className="corp5">
           <img src={photo_mascotte} className="tof" alt="photo_membre" />        
         </div>

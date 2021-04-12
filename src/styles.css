@@ -1,10 +1,95 @@
+@font-face {
+  font-family: 'ARBONNIE';
+  src: url('./police/ar-bonnie.eot');
+  src: local('☺'),
+       url('./police/ARBONNIE.woff') format('woff'), 
+       url('./police/ARBONNIE.ttf') format('truetype'), 
+       url('./police/ARBONNIE.svg#ARBONNIE') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .App {
   text-align: center;
+  position: relative;
+}
+
+.fond {
+  background: linear-gradient(#2E8AA1, #113F57);
+  height : 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fond_co {
+  background-color: #2E8AA1;
+  height : 70vh;
+  width: 80vw;
+  margin-top: 20vh;
+  position: absolute;
+  border-radius: 15px;
+  text-align: left
+}
+
+.mail {
+  margin-top: 17vh;
+  font-family: 'ARBONNIE';
+  margin-left: 5vw;
+}
+
+.mdp {
+  font-family: 'ARBONNIE';
+  margin-left: 5vw;
+}
+
+.input {
+  background-color: #2E8AA1;
+  border-top-style : hidden;
+  border-left-style : hidden;
+  border-right-style : hidden;
+  border-bottom-style : solid;
+  border-bottom-color: white;
+  margin-left: 5vw;
+  width : 70vw
+}
+
+.fond_boutton {
+  display: flex;
+  flex-direction: row;
+}
+
+.boutton_co {
+  color: #FFD200;
+  margin-left: 25vw;
+  margin-top: 10vh;
+  font-family: 'ARBONNIE';
+}
+
+.boutton_co1 {
+  color: #FFD200;
+  margin-left: 5vw;
+  margin-top: 10vh;
+  font-family: 'ARBONNIE';
+}
+
+.boutton_co2 {
+  color: #FFD200;
+  margin-left: 50vw;
+  margin-top: 5vh;
+  font-family: 'ARBONNIE';
 }
 
 .App-logo {
   height: 15vh;
   pointer-events: none;
+}
+
+.logo_co {
+  margin-top: 3vh;
+  height: 35vh;
+  z-index: 1;
 }
 
 .App-header {
@@ -26,6 +111,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.corp_liste {
+  margin-top: 50vh;
+  background-color: green;
 }
 
 .corp1 {
@@ -140,7 +230,63 @@
 }
 
 .font {
-  font-family: acier-bat-gris, sans-serif;
+  font-family: 'ARBONNIE';
   font-style: normal;
   font-weight: 400;
+}
+
+.font1 {
+  font-family: 'ARBONNIE';
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 10vh;
+}
+
+.liste {
+  list-style:none;
+  margin-left:0;
+  padding-left:0;
+  margin-top: 5vh;
+}
+
+.carre_liste {
+  background-color: #113F57;
+  height: 25vh;
+  width: 80vw;
+  border-radius: 20px;
+  margin-left: 10vw;
+  margin-top: 12vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.cercle_logo {
+  background-color: #FFD200;
+  margin-left: -8vw;
+  margin-top: -8vh;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carre_descri {
+  width: 55vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  justify-items: left;
+}
+
+.titre_descri {
+  margin-right: 35vw;
+  font-family: 'ARBONNIE';
+  width: 45vw;
+  color: #FFD200;
+}
+
+.logo_sponso {
+  width: 15vw;
 }

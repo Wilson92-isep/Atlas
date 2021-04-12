@@ -1,14 +1,21 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {Home} from './Home'
 import {Sponsor} from './Sponsor'
 import {Goodies} from './Goodies'
+import {Connexion} from './Connexion'
+import {Inscription} from './Inscription'
+import "bootstrap/dist/css/bootstrap.min.css";
  
-function App() {
-  return (
+class App extends Component { 
+  render () {
+    return(
     <Home></Home>
     //<Sponsor></Sponsor>
     //<Goodies></Goodies>
-  );
+    //<Connexion></Connexion>
+    //<Inscription></Inscription>
+    );
+  }
 }
 
 export default App;
