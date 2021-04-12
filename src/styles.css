@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'ARBONNIE';
-  src: url('./police/ar-bonnie.eot');
+  font-family: 'Righteous';
+  src: url('./police/Righteous.eot');
   src: local('☺'),
-       url('./police/ARBONNIE.woff') format('woff'), 
-       url('./police/ARBONNIE.ttf') format('truetype'), 
-       url('./police/ARBONNIE.svg#ARBONNIE') format('svg');
+       url('./police/Righteous.woff') format('woff'), 
+       url('./police/Righteous.ttf') format('truetype'), 
+       url('./police/Righteous.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -34,14 +34,17 @@
 }
 
 .mail {
-  margin-top: 17vh;
-  font-family: 'ARBONNIE';
+  margin-top: 150px;
+  font-family: 'Righteous';
   margin-left: 5vw;
+  color: white;
 }
 
 .mdp {
-  font-family: 'ARBONNIE';
+  margin-top : 30px;
+  font-family: 'Righteous';
   margin-left: 5vw;
+  color: white;
 }
 
 .input {
@@ -62,29 +65,32 @@
 
 .boutton_co {
   color: #FFD200;
-  margin-left: 25vw;
+  margin-left: 55vw;
   margin-top: 10vh;
-  font-family: 'ARBONNIE';
+  font-family: 'Righteous';
 }
 
 .boutton_co1 {
   color: #FFD200;
   margin-left: 5vw;
   margin-top: 10vh;
-  font-family: 'ARBONNIE';
+  font-family: 'Righteous';
 }
 
 .boutton_co2 {
   color: #FFD200;
-  margin-left: 50vw;
+  margin-left: 67vw;
   margin-top: 5vh;
-  font-family: 'ARBONNIE';
+  font-family: 'Righteous';
 }
 
 .App-logo {
   height: 15vh;
   pointer-events: none;
+  margin-top : 100px;
 }
+
+
 
 .logo_co {
   margin-top: 3vh;
@@ -93,24 +99,38 @@
 }
 
 .App-header {
-  background-color: #113F57;
-  height: 20vh;
+  height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  background-color: #2e8aa1;
+  /**position: fixed;
+  width: 100%;**/
 }
 
 .corp {
-  background-color: #2E8AA1;
-  background-image : url("./logo/neon_1000.png");
-  background-size: 150vw;
-  background-position:center center;
-  height: 760vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background: linear-gradient(#2E8AA1, #113F57);
+  background-attachment: fixed;
+
+
+}
+
+.background-image{
+
+  background-image : url("./logo/logo_blanc10.svg");
+  background-size: 125%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+
+.margin {
+
+margin-top : 100px;
+
 }
 
 .corp_liste {
@@ -151,18 +171,10 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  width : 30vw;
   height: 30vh;
+  margin : 0 auto;
 }
 
-.corp61 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  width : 30vw;
-  height: 30vh;
-  margin-left: 5vw;
-}
 
 .div1 {
   height: 110vh;
@@ -183,60 +195,186 @@
 }
 
 .tombola {
-  background-color: #FFD200;
-  width : 80vw;
-  height: 30vh;
+  background-color: #2e8aa1;
   margin-top: 10vh;
   border-radius: 10px;
   align-items: center;
   display: flex;
-  flex-direction: row
+  flex-direction: row;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.AGagner{
+
+  color : #FFD200;
+  font-family: 'Righteous';
+  font-size: 30px;
+  margin-top : 10px;
+
 }
 
 .lot {
-  height: 25vh;
-  margin-left: 3vw;
+  width: 250px;
+  height: 250px;
+  border-top-left-radius: 4%;
+  border-bottom-left-radius: 4%;
 }
 
 .nom_lot {
-  margin-top: 5vh;
-  font-family: acier-bat-gris, sans-serif;
+  margin-top: 2vh;
+  font-family: 'Righteous';
   font-style: normal;
   font-weight: 400;
+  color: white;
+  width: 380px;
 }
 
 .bouton {
-  margin-top: 6vh;
+  margin-top: 25px;
   width : 20vw;
   height: 7vh;
   border-radius: 10px;
   align-items: center;
   display: flex;
   flex-direction: row;
-  background-color: #113F57;
+  background-color: #FFD200;
   justify-content: center;
 }
 
-.bouton1 {
-  margin-top: 2vh;
-  width : 20vw;
-  height: 7vh;
+.buttonName{
+  color : #2e8aa1;
+  font-family: 'Righteous';
+  font-size : 25px;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px){
+
+  .tombola {
+  background-color: #2e8aa1;
+  margin-top: 20px;
   border-radius: 10px;
   align-items: center;
   display: flex;
   flex-direction: row;
-  background-color: #113F57;
-  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 160px;
 }
 
-.font {
-  font-family: 'ARBONNIE';
+.AGagner{
+
+  color : #FFD200;
+  font-family: 'Righteous';
+  font-size: 25px;
+  margin-top : 10px;
+
+}
+
+
+.lot {
+  width: 160px;
+  height: 160px;
+  border-top-left-radius: 4%;
+  border-bottom-left-radius: 4%;
+}
+
+.nom_lot {
+  margin-top: 0px;
+  font-family: 'Righteous';
   font-style: normal;
   font-weight: 400;
+  color: white;
+  width: 140px;
+  font-size: 15px;
+
 }
 
+.bouton {
+  margin-top: 0px;
+  width : 100px;
+  height: 25px;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background-color: #FFD200;
+  justify-content: center;
+}
+
+.corp6 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin : 0 auto;
+  margin-top : 80px;
+}
+
+
+.buttonName{
+  color : #2e8aa1;
+  font-family: 'Righteous';
+  font-size : 15px;
+  margin-top : 5px;
+}
+
+.mail {
+  margin-top: 180px;
+  font-family: 'Righteous';
+  margin-left: 5vw;
+  color: white;
+  font-size: 20px;
+}
+
+.mdp {
+  margin-top : 20px;
+  font-family: 'Righteous';
+  margin-left: 5vw;
+  color: white;
+  font-size: 20px;
+}
+
+.boutton_co {
+  color: #FFD200;
+  margin-left: 15vw;
+  margin-top: 15vh;
+  font-family: 'Righteous';
+  font-size: 20px;
+}
+
+.boutton_co1 {
+  color: #FFD200;
+  margin-left: 5vw;
+  margin-top: 15vh;
+  font-family: 'Righteous';
+  font-size: 20px;
+}
+
+.boutton_co2 {
+  color: #FFD200;
+  margin-left: 45vw;
+  margin-top: 5vh;
+  font-family: 'Righteous';
+  font-size: 20px;
+}
+
+
+
+}
+
+
+.font {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+
+}
+
+
+
 .font1 {
-  font-family: 'ARBONNIE';
+  font-family: 'Righteous';
   font-style: normal;
   font-weight: 400;
   margin-top: 10vh;
@@ -282,7 +420,7 @@
 
 .titre_descri {
   margin-right: 35vw;
-  font-family: 'ARBONNIE';
+  font-family: 'Righteous';
   width: 45vw;
   color: #FFD200;
 }

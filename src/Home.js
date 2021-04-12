@@ -47,11 +47,15 @@ import './styles.css';
 export const Home = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+        
       <div className="corp">
-       <h1 className="font">Le bureau</h1>
+      <div className = "App-header">
+      <img src={logo} className="App-logo" alt="logo" />
+      </div>
+        <div className = "background-image">
+        <div className>
+       <h1 className="font margin">Le bureau</h1>
+       </div>
        <div className="corp1">
          <div className="div1">
           <img src={photo_quentin} className="tof" alt="photo_membre" /> 
@@ -66,7 +70,7 @@ export const Home = () => {
           <img src={photo_laurie} className="tof" alt="photo_membre" />
          </div>
        </div>
-       <h1 className="font">Pole Sponsor</h1>
+       <h1 className="font margin">Pole Sponsor</h1>
        <div className="corp2">  
          <div className="div1">
           <img src={photo_seb} className="tof" alt="photo_membre" /> 
@@ -78,7 +82,7 @@ export const Home = () => {
           <img src={photo_wilhem} className="tof" alt="photo_membre" />
          </div>
         </div>
-        <h1 className="font">Pole Communication</h1>
+        <h1 className="font margin">Pole Communication</h1>
         <div className="corp1">
          <div className="div1"> 
           <img src={photo_linda} className="tof" alt="photo_membre" /> 
@@ -92,7 +96,7 @@ export const Home = () => {
           <img src={photo_nacim} className="tof" alt="photo_membre" />
          </div>         
         </div>
-        <h1 className="font">Pole Créa</h1>
+        <h1 className="font margin">Pole Créa</h1>
         <div className="corp1">
          <div className="div1"> 
           <img src={photo_simon} className="tof" alt="photo_membre" /> 
@@ -106,7 +110,7 @@ export const Home = () => {
           <img src={photo_paul} className="tof" alt="photo_membre" />
          </div>         
         </div>
-        <h1 className="font">Pole Tech</h1>
+        <h1 className="font margin">Pole Tech</h1>
         <div className="corp3">
          <div className="div1"> 
           <img src={photo_jerem} className="tof" alt="photo_membre" /> 
@@ -116,7 +120,7 @@ export const Home = () => {
           <img src={photo_wilson} className="tof" alt="photo_membre" />
          </div>         
         </div>
-        <h1 className="font">Pole Event</h1>
+        <h1 className="font margin">Pole Event</h1>
         <div className="corp4">
          <div className="div1"> 
           <img src={photo_corentin} className="tof" alt="photo_membre" /> 
@@ -132,11 +136,12 @@ export const Home = () => {
           <img src={photo_leopold} className="tof" alt="photo_membre" />
          </div>         
         </div>
-        <h1 className="font1">La Mascotte</h1>
+        <h1 className="font margin">La Mascotte</h1>
         <div className="corp5">
           <img src={photo_mascotte} className="tof" alt="photo_membre" />        
         </div>
       </div>
+    </div>
     </div>
   );
 }

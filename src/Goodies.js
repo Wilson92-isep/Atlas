@@ -21,120 +21,135 @@ function handle() {
 export const Goodies = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      
       <div className="corp">
-       <h1 className="font">Tombola</h1>
+      <div className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+      </div>
+      <div className = "background-image">
+       <h1 className="font margin">Tombola</h1>
        <div className="tombola">
         <img src={lot_enceinte} className="lot" alt="lot_tombola" />
         <div className="corp6">
+          <h1 className = "AGagner">A gagner</h1>
           <h3 className="nom_lot" >Enceinte</h3>
           <div className="bouton" onClick={handle}>
-            <h6>Je participe !</h6>
+            <h6 className = "buttonName">Je participe !</h6>
           </div>
         </div>  
        </div>
        <div className="tombola">
         <img src={lot_coco} className="lot" alt="lot_tombola" />
-        <div className="corp61">
+        <div className="corp6">
+        <h1 className = "AGagner">A gagner</h1>
           <h3 className="nom_lot" >Une séance mix avec Coco</h3>
-          <div className="bouton1" onClick={handle}>
-            <h6>Je participe !</h6>
+          <div className="bouton" onClick={handle}>
+            <h6 className = "buttonName">Je participe !</h6>
           </div>
         </div>  
        </div>
        <div className="tombola">
         <img src={lot_baby} className="lot" alt="lot_tombola" />
         <div className="corp6">
+        <h1 className = "AGagner">A gagner</h1>
           <h3 className="nom_lot" >Mini baby-foot</h3>
           <div className="bouton" onClick={handle}>
-            <h6>Je participe !</h6>
+            <h6 className = "buttonName">Je participe !</h6>
           </div>
         </div>  
        </div>
        <div className="tombola">
         <img src={lot_coque} className="lot" alt="lot_tombola" />
         <div className="corp6">
+        <h1 className = "AGagner">A gagner</h1>
           <h3 className="nom_lot" >Coque téléphone</h3>
           <div className="bouton" onClick={handle}>
-            <h6>Je participe !</h6>
+            <h6 className = "buttonName">Je participe !</h6>
           </div>
         </div>  
        </div>
        <div className="tombola">
         <img src={lot_baba} className="lot" alt="lot_tombola" />
         <div className="corp6">
-          <h5 className="nom_lot" >Moment complice sur discord avec Etienne et Baba</h5>
-          <div className="bouton1" onClick={handle}>
-            <h6>Je participe !</h6>
+        <h1 className = "AGagner">A gagner</h1>
+          <h3 className="nom_lot" >Moment complice sur discord avec Etienne et Baba</h3>
+          <div className="bouton" onClick={handle}>
+            <h6 className = "buttonName">Je participe !</h6>
           </div>
         </div>  
        </div>
        <div className="tombola">
         <img src={lot_carte} className="lot" alt="lot_tombola" />
         <div className="corp6">
+        <h1 className = "AGagner">A gagner</h1>
           <h3 className="nom_lot" >Carte du monde à gratter</h3>
-          <div className="bouton1" onClick={handle}>
-            <h6>Je participe !</h6>
+          <div className="bouton" onClick={handle}>
+            <h6 className = "buttonName">Je participe !</h6>
           </div>
         </div>  
        </div>
        <div className="tombola">
         <img src={lot_video} className="lot" alt="lot_tombola" />
         <div className="corp6">
+        <h1 className = "AGagner">A gagner</h1>
           <h3 className="nom_lot" >Vidéo-projecteur</h3>
           <div className="bouton" onClick={handle}>
-            <h6>Je participe !</h6>
+            <h6 className = "buttonName">Je participe !</h6>
           </div>
         </div>  
        </div>
        <div className="tombola">
         <img src={lot_pacome} className="lot" alt="lot_tombola" />
         <div className="corp6">
-          <h5 className="nom_lot" >Tuto brassage de bière avec Pacôme</h5>
-          <div className="bouton1" onClick={handle}>
-            <h6>Je participe !</h6> 
+        <h1 className = "AGagner">A gagner</h1>
+          <h3 className="nom_lot" >Tuto brassage de bière avec Pacôme</h3>
+          <div className="bouton" onClick={handle}>
+            <h6 className = "buttonName">Je participe !</h6>
           </div>
         </div>  
        </div>
        <div className="tombola">
         <img src={lot_sac} className="lot" alt="lot_tombola" />
         <div className="corp6">
+        <h1 className = "AGagner">A gagner</h1>
           <h3 className="nom_lot" >Sac à dos</h3>
           <div className="bouton" onClick={handle}>
-            <h6>Je participe !</h6>
+            <h6 className = "buttonName">Je participe !</h6>
           </div>
         </div>  
        </div>
        <div className="tombola">
         <img src={lot_lim_lim} className="lot" alt="lot_tombola" />
         <div className="corp6">
+        <h1 className = "AGagner">A gagner</h1>
           <h3 className="nom_lot" >Jeux limite-limite</h3>
           <div className="bouton" onClick={handle}>
-            <h6>Je participe !</h6>
+            <h6 className = "buttonName">Je participe !</h6>
           </div>
         </div>  
        </div>
        <div className="tombola">
         <img src={lot_voyage} className="lot" alt="lot_tombola" />
         <div className="corp6">
+        <h1 className = "AGagner">A gagner</h1>
           <h3 className="nom_lot" >Valise</h3>
           <div className="bouton" onClick={handle}>
-            <h6>Je participe !</h6>
+            <h6 className = "buttonName">Je participe !</h6>
           </div>
         </div>  
        </div>
        <div className="tombola">
         <img src={lot_laurene} className="lot" alt="lot_tombola" />
         <div className="corp6">
-          <h5 className="nom_lot" >Séance photo avec Laurene</h5>
+        <h1 className = "AGagner">A gagner</h1>
+          <h3 className="nom_lot" >Séance photo avec Laurene</h3>
           <div className="bouton" onClick={handle}>
-            <h6>Je participe !</h6>
+            <h6 className = "buttonName">Je participe !</h6>
           </div>
         </div>  
        </div>
       </div>
+    </div>
     </div>
   );
 }

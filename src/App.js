@@ -9,13 +9,18 @@ import "bootstrap/dist/css/bootstrap.min.css";
 class App extends Component { 
   render () {
     return(
+    	<div>
     <Home></Home>
-    //<Sponsor></Sponsor>
-    //<Goodies></Goodies>
-    //<Connexion></Connexion>
-    //<Inscription></Inscription>
+    <Sponsor></Sponsor>
+    <Goodies></Goodies>
+    <Connexion></Connexion>
+    <Inscription></Inscription>
+    
+    </div>
     );
   }
 }
+
+
 
 export default App;
