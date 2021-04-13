@@ -1,10 +1,18 @@
 import React from 'react';
 import logo from './logo/Logo_nuit.png';
 import './styles.css';
+import persos from './svg/persos.svg'
+import sponsors from './svg/partenaires.svg'
+import gift from './svg/gift.svg'
 
 export function Inscription() {
   return (
     <div className="App">
+      <div class="navbarbottom">
+        <img src = {gift} className = "svg1"></img>
+        <img src = {persos} className = "svg2"></img>
+        <img src = {sponsors} className = "svg3"></img>
+     </div>
       <div className="fond">
         <img src={logo} className="logo_co" alt="logo" />
         <div className="fond_co">
